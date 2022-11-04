@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.set {
+}
+.pressed {
+  box-shadow: 0px 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.drum {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.w {
+  background: url("/images/tom1.png");
+}
+.a {
+  background: url("/images/tom2.png");
+}
+.s {
+  background: url("/images/tom3.png");
+}
+.d {
+  background: url("/images/tom4.png");
+}
+.j {
+  background: url("/images/kick.png");
+}
+.k {
+  background: url("/images/snare.png");
+}
+.l {
+  background: url("/images/crash.png");
+}
+
+footer {
+  position: fixed;
+  bottom: 50px;
+}
